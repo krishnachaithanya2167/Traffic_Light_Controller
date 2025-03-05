@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ns_light[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ns_light[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ew_light[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ew_light[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ns_left",
+					"strict" : false
+				},
+				{
+					"name" : "ew_left",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

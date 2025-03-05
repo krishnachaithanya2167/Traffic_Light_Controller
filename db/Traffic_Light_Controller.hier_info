@@ -1,0 +1,19 @@
+|Traffic_Light_Controller
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => current_state~3.DATAIN
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+reset => current_state~5.DATAIN
+ns_light[0] << ns_light[0].DB_MAX_OUTPUT_PORT_TYPE
+ns_light[1] << ns_light[1].DB_MAX_OUTPUT_PORT_TYPE
+ew_light[0] << ew_light[0].DB_MAX_OUTPUT_PORT_TYPE
+ew_light[1] << ew_light[1].DB_MAX_OUTPUT_PORT_TYPE
+ns_left << ns_left.DB_MAX_OUTPUT_PORT_TYPE
+ew_left << ew_left.DB_MAX_OUTPUT_PORT_TYPE
+
+
